@@ -81,4 +81,41 @@
 
 (*Test AUC taken from )
 
+#### Correlation Heatmap
+![Correlation Heatmap](Correlation_heatmap.png)
+
+
+#### AIR By Passenger Class
+![AIR Pclass](air_pclass.png)
+
+
+#### AIR By Gender
+![AIR Gender](air_sex.png)
+
+
+## Ethical Considerations
+
+### Potential Negative Impacts of Using the Model
+
+#### Math or Software Problems
+* **Overfitting**: Despite the robustness against overfitting, Random Forest might fail to generalize to unseen data if the training set is not representative.
+* **Bias in Data**: The training data may contain inherent biases, which the model could amplify, leading to unfair predictions.
+
+#### Real-world Risks
+* **Misuse of Predictions**: Improper interpretation or use of model predictions could lead to sensitive or unethical decisions.
+* **Impact on Descendants**: Use of such data might be viewed as insensitive or offensive by relatives of those onboard the Titanic.
+* **Privacy Concerns**: Using detailed passenger data could violate privacy if not properly anonymized.
+
+### Potential Uncertainties Relating to the Impacts of Using the Model
+
+#### Math or Software Problems
+* **Model Interpretability**: The complex nature of Random Forest might hinder transparency and understanding of decision-making processes.
+* **Dependency on Parameters**: The model's performance is highly dependent on the choice of hyperparameters, which can lead to unpredictable behavior if misconfigured.
+
+#### Real-world Risks
+* **Scope of Application**: The historical context of the Titanic may not translate well to modern applications or different scenarios.
+* **Impact on Decision Making**: Overreliance on the model for educational or analysis purposes without acknowledging its limitations might lead to historical inaccuracies.
+
+### Unexpected or Results
+* **Unanticipated Patterns**: Discovery of new patterns or data relationships that could lead to speculative historical insights.
 
