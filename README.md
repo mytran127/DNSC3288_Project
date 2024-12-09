@@ -79,7 +79,7 @@
 | Passenger Class 3 | 2.609 |
 
 
-(*Test AUC taken from )
+(*Test AUC taken from Kaggle submission )
 
 #### Correlation Heatmap
 ![Correlation Heatmap](Correlation_heatmap.png)
