@@ -23,7 +23,7 @@
 |--------------|---------------|-------------------|--------------------------------------------------------------------|
 | `PassengerId` | ID            | Nominal           | Unique identifier for each passenger.                              |
 | `Survived`    | Target        | Binary            | Indicates if a passenger survived the Titanic disaster (0 = No, 1 = Yes). |
-| `Pclass`      | Feature       | Ordinal           | Ticket class as a proxy for socio-economic status (1 = 1st, 2 = 2nd, 3 = 3rd). |
+| `Pclass`      | Feature       | Ordinal           | Ticket class (1 = 1st, 2 = 2nd, 3 = 3rd). |
 | `Name`        | None          | Nominal           | Full name of the passenger.                                        |
 | `Sex`         | Feature       | Nominal           | Gender of the passenger (Male, Female).                            |
 | `Age`         | Feature       | Ratio             | Age of the passenger in years.                                     |
